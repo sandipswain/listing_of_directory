@@ -38,7 +38,7 @@ public class FileStatus {
             System.out.println("Listing for directory: " + check);
             fileStatus(existFile, fileCheck);
         } else
-            System.out.println("False");
+            System.out.println("The Directory you entered doesn't exist.Sorry!! Try Again...");
         // Tests whether the directory denoted by this abstract pathname exists.
         /*
          * int i = 0; for (i = 0; i < l; i++) { if (f.equals(fileList[i]))
