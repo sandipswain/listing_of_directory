@@ -66,6 +66,8 @@ public class FileStatus {
                                                                                                                                   // status
         panel.add(label2);
         panel.add(label1);
+        System.out.println(
+                "name                               length                           modified                         code");
 
         String list[] = existFile.list();
         int l = list.length; // number of files present in the directory
@@ -88,7 +90,8 @@ public class FileStatus {
                     + "                             " + f.lastModified() + "                     " + test); // Printing
                                                                                                             // the file
                                                                                                             // status
-
+            System.out.println(list[i] + "                             " + f.length() + "                             "
+                    + f.lastModified() + "                     " + test);
             panel.add(label); // adding the label to panel
 
         }
