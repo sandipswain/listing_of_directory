@@ -27,10 +27,9 @@ public class FileStatus {
 
         /*
          * Printing the list of directories
-         */
-        for (String file : fileList) {
-            System.out.println(file);
-        }
+         */ 
+         for (String file : fileList) { System.out.println(file); }
+         
 
         Scanner sc = new Scanner(System.in); // Scanner class
         System.out.print("Enter the name of the directory which you wish to be listed ->");// Message to enter a valid
